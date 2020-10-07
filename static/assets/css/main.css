@@ -1639,12 +1639,14 @@ input, select, textarea {
 		text-align: center;
 	}
 
+		#footer a {
+			border-bottom: none;
+		}
+
 		#footer .copyright {
-			letter-spacing: 0.2rem;
-			font-size: 0.6rem;
-			opacity: 0.75;
+			letter-spacing: 1.0rem;
+			margin-right: -1.0rem;
 			margin-bottom: 0;
-			text-transform: uppercase;
 		}
 
 		body.is-article-visible #footer {
